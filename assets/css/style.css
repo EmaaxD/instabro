@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  margin: 0;
+  padding: 10px 0;
+  background-color: rgb(206, 206, 206);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: Inter;
+}
+
+.app__home-content::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+.app__home-content::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius: 6px;
+}
+
+.app__home {
+  width: 28% !important;
+}
+
+.app__home-header-icon {
+  height: fit-content !important;
+}
+
+.app__home-header-icon i,
+.app__home-status-up i,
+.fa-plus {
+  color: palevioletred
+}
+
+.app__home-header-icon:hover {
+  cursor: pointer;
+}
+
+.app__home-header-logo {
+  margin-left: 20px;
+}
+
+.app__home-header-logo h3 {
+  font-family: Satisfy;
+}
+
+.app__home-status-up {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.app__home-status-container {
+  cursor: pointer;
+}
+
+.app__home-status-container span {
+  font-size: 11px;
+}
+
+.app__home-status-people {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #af568b;
+  border-radius: 50%;
+}
+
+.app__home-content {
+  overflow-y: scroll;
+  max-height: 470px;
+  transition: .3s ease-in;
+}
+
+.app__home-footer {
+  background-color: #f3f3f3;
+}
+
+.app__home-footer-people {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #af568b;
+  border-radius: 50%;
+}
+
+.app__profile-info-img {
+  max-height: 50px;
+  height: 100%;
+  max-width: 50px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.app__profile-info-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.active {
+  transition: all .3s ease-in-out;
+}
+
+.active i {
+  color: #af568b !important;
+}
